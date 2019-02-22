@@ -1,1 +1,11 @@
-bgp 
+BGP Border gateway protocol 
+BGP IS EXterior gateway protocol 
+Bgp is use to exchange routig between different as without redistribution 
+BGP is a overlay protocol with needs underlay protocol for forming the neighborship and adjecncy 
+BGP is path vector protocol it means that it not only stores the network prefixes but also the path we have to get through in order to get there .
+it is different than IGP protocols which only stores the next hop ip address
+
+
+
+BGP algorithum =---Robust best path algorithum
+
