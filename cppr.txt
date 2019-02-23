@@ -1,0 +1,35 @@
+						control plane protection can be used to restrict or police control plane traffic destined to the route processor of the cisco ios device. Although it is similiar to control plane policing ,cppr has the ability to filter/police traffic using finer granularity than that used by the copp
+			the cppr divides the aggregate control plane into separate three control plane category known as subinterfaces
+		1---control plane host subinterfaces
+		2---control plane transit subinterfaces 
+		3---control plane CEF-exception subinterface
+		
+		in addition cppr includes the following additionl control plane protection feature
+			------The port-fitering provides for policing/dropping of packets going to closed or nonlistening tcp/udp ports
+			------ Queue thresholding limit the number of packets for a specified protocol that will be allowed int he control plane ip input queue
+
+
+
+control plane host subinterface------- This interface revieve all control plane IP traffic that is destined to one of the router interface (physical or loopback)
+example of control plane host subinterfaces is tunnel termination ,management trafic and routing protocol such as ssh snmp eigrp and ibgp 
+All host traffic terminate on or processed by the router .Most control plane protection feature and policy operate stricty on the control plane host subinterface because control plane service such as routing protocol and management traffic are recieved on host subinterface
+
+CoPP,port-filtering and per protocol queue thresholding protection feature can applied to control plane host subinterfaces 
+
+
+control plane transit subinterface------This subinterface receives all control plane IP traffic that are not directly destined to the router itself but rather are traffic traversing through the router
+
+control plane CEF-Exception subinterface------ARP ,
+
+
+
+Benefits of cppr ----- control plane protection is one of several methods that administrator can use to protect the CPU of iou device Denial of service attacks that either directl or indrectly target the CPU typically involve high rates of traffic that needs to be processed by the CPU
+
+high cpu utilization
+loss of keepalives and routing protocol updates 
+slow or unresponsive interactive managemnt sessions depletion of memory and or buffer resources 
+
+
+
+cppr protects the conttrol and management planes of a cisco ios device maintains routing stability network reachability  and packet delivery :q:wq
+

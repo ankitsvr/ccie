@@ -1,0 +1,24 @@
+
+A large part of being a system administrator is collecting accurate information about your server and infrastructure .
+There are number of tools available for gathering and processing this type of information .Many of them are built upon a techenology called SNMP
+
+
+
+
+SNMP stands for simple network management protocol .it is a way that server can share information  about thier current
+state and also a channel through which an administrator can modify pre-defined value.while the protocol itself is very simple,the structure of program that implement SNMP CAN be very complex
+
+
+An snmp agent is a program  that can gather information about a piece of hardware organize it into predefined entries 
+and respond to querie using snmp protocol
+
+the component of this model that queries agent for information  is called SNMP manager these machines generally have data about all of the snmp-enabled devices in their network and can issues a request to gather information and set certain properties
+
+
+HOw it works
+	GET- USED to request information from the agent
+	SET - used to change devices confi
+	traps - sent from agent to the manager to inform about a condition send without acknowledgment
+	inform - same as trps except that the manager needs to acknowledge reciept,if acknowledgement isn't 
+		 recieved the another inform will be sent 
+

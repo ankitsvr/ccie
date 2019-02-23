@@ -1,0 +1,33 @@
+Nat stands for network address translation and use to tranlaste private ip address to pubilc ip address or for more specific understanding nat allows us to translate private addresses in the internal network into legal routable addres that can be used on the public internet .In this way ,nat conserves public address because it can be configured to advertise at a minimum only one public address for the entire netowrk to the outside world 
+
+funcion of nat includes---
+		security ---keeping internal ip address hidden ,It prevents direct attacks
+		ip routing solution ---overlapping ip addresses are not a problem when you use nat
+		flexibility
+		Flexibility- you can change internal ip addressing schemes without affecting the pubic address available
+		translate between ipv4 and ipv6
+	
+Terminology of nat----
+		
+			Real IP/Network/interface
+			mapped ip/host/network/interface
+			Bidirectional initiation
+			Source and destination nat
+	
+Nat types-------
+		static nat
+		Dynamic nat
+		Dynamic pat
+		identiy nat	
+
+static nat----
+
+
+
+		1--static nat with port translation ----
+				static nat with port translation  lets you specify a real and mapped protocol (tcp or udp ) and port 
+	        2--- static nat with identity port translation ----
+				THe static nat with identity port address translation provides single address for for remote users to access ftp,http  and smtp 		
+		3----static nat with port translation for non standard ports
+    		
+

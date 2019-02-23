@@ -1,0 +1,66 @@
+a firewall is concept which can be implemented by a software or hardware or both software and hardware ,it enforces the access control policy in multile security domain 
+objective of a good firewall
+
+
+1 	it must be resistant to attacks
+2 	traffic between newtworks must be forced through firewall
+3	the firewall enforces the access control policy of the organiztion
+
+firewall reduces the risk of ----
+	1	exposures of senstive system to untrusted individuals
+	2	Exploitation of protocol flaws
+	3 	unauthorized users
+	4 	Malicious data
+
+limitation of firewall
+	1	configuration mistakes have serious consequences
+	2	Not all network application were written to survive going thorough the firewall
+	3	Individual who are forced to go through firewall might try to engineer a way around it
+	4	Latency being added by the firewall
+
+
+
+firewall design considerations
+	1 firewall should be placed at security boundaries such as between two network have different level of trust(fro		prosepective of your organization )
+	2  firewall should be primary security device ,but not only securty device or security measure on the network
+	3  create a policy which by default deny all traffic
+	4 
+
+firwall access rule
+		
+	appropriate method for implementing firewall is based on a policy.The policy drives what the firewall configuration should do
+	
+
+	rule based on service control
+	rule based on address control
+	rule based on direction control
+	rule based on user control
+	rule based on behaviour control
+
+
+
+
+methedology of firewall
+			1-static packet filtering
+			2-proxy firewall (application layer gateway)
+			3-stateful packet filtering
+			4-NAT
+			5-tranparent firewall
+			6-Next generation context and application-aware firewalls
+		
+
+
+
+
+
+
+
+stateful vs packet filtering firewall 
+			----stateful firewall is aware of the connections and traffic that passes through it....
+			   in the other hand packet filtering firewalls don't look at the connection but just at the packet themselve
+
+
+
+
+Sequence number randomization
+	tcp/ip protcol stack used fairly predictible methods when using the sequence number :

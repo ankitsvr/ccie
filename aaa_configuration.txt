@@ -1,0 +1,7 @@
+device access control through aaa server using tacacs+ protocol 
+
+	creat the aaa server tag and enter server information 
+	1 aaa-server acs_server protocol tacacs+
+	1 aaa-server acs_server (inteface name) host server_ip_address
+       			#key (tacacs+ key)
+	2 

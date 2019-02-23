@@ -1,0 +1,12 @@
+how cisco asa process the packet that it receives
+		-----The packet is reached at the ingress interfac
+		     Once the packet reaches at the internal buffer of the interfaces,the input counter of the interface		    increment by one 
+		3---the cisco asa first look at its connection table if there is a current connection which matched the packet flow then the access control list check is bypassed and packet is moved forward
+
+--------if the packet flow does not match the current connection in connection table then tcp state is verified 
+		if it is a syn packet then connection counter is incremeted by one and packet is sent for acl check
+		if it is not a syn packet then packet is dropped and the event is logged
+	The packet is processed  as per the interface ACLs it is verified in sequential order of the acl enteries if it mactches to any entry the it moves forwared otherwise packet is dropped and information is logged 
+the acl hit counts incremeted by one when the packet matched the ACL entry
+
+the packet is verified for the translation rule 

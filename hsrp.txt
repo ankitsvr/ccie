@@ -1,0 +1,2 @@
+HSRP is a cisco proprietry protocol developed to allow multiple layer 3 device as a single gateway 
+

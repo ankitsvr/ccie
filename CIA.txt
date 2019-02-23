@@ -1,0 +1,16 @@
+-------------Confidentiality---
+				There are two type of data ----data in motion as it moves across the network 
+								and data at rest ,when data is in datbase or in storage
+								media	
+
+		confidentiality means that only the authorized individual/system can see the sensitive information .The primary way is to encrypte the data before tramitting it over the network
+
+
+------------Integrity--------Integrity means changes made to are done only by authorized person and individual 		corrutption of data is faliure of maintaining data integrity 
+
+
+
+------------Availability -data and resources should be available to authorized user in the time of need because most users buisness relies on the those data and resourcecs :wq
+
+
+

@@ -1,0 +1,83 @@
+
+
+feature of zone based firewall 
+
+
+----------------stateful inspection 
+		application inspection  
+		packet filtering	
+		url filtering 
+		support for vrf
+		access control list 
+
+
+
+cisco common classification policy language 
+
+	classify traffic into class
+	apply modualr reuse of object
+	allow simpler creation of complex policies
+	
+three main configuration constructs
+	class maps provide traffic classification  policy maps associate action with traffic classes
+
+
+
+
+class map -----
+		
+		Class maps describe and group traffic into clases 
+			based on one or more match conditions
+			can match based on ACL PAM protocol , or another class map
+
+
+
+now we have multiple ways to implement or configure the policies
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+policy maps-------------
+			 policy maps determine the firewall policy applied to a class
+				permit,deny,logor special actions
+				evalutate in class order 
+			A policy map is applied to each configured zone pair:WQ
+
+
+
+
+
+
+
+
+
+
+ 
