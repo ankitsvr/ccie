@@ -9,3 +9,11 @@ it is different than IGP protocols which only stores the next hop ip address
 
 BGP algorithum =---Robust best path algorithum
 
+
+
+
+two type of bgp neighbour ship 
+	IBGP internal bgp 
+	EBGP externeal bgp 
+	
+	

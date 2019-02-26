@@ -1,0 +1,20 @@
+vlan -----a virtual lan is any broadcast  domain  that is partitioned and isolated in a computer network at the data link layer..in virtual lan we grouped the network nodes on logical basis rather than physical basis
+
+STP===spanning tree protocol is link management protocol which provides path redundancey while protecting network from
+loops
+
+switches running spaning-tree protocol exchanges information with a special message called the BPDU
+Bridge protocol data unit 
+Information in BPDU is needed to creat and maintain  the spanning tree protocol 
+in bpdu ----
+	protocol identifier 
+	protocol version identifier
+	BPDU type
+	flags 
+	Root identfier 
+	Root path cost
+	Bridge identifier
+	message age
+ 	max age
+	Hello time 
+	forward delay 

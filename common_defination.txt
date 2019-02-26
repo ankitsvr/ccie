@@ -1,0 +1,6 @@
+what is gratuitous arp 
+	a gratuious arp is an address resolution  protocol  is request packet where the source and destination ip address both set to ip address of machine issuing the packet and mac address is broadcast address 
+gratuitious arp is user for four resaon 
+
+they can help detecting ip conflicts ...
+they assist in the updating  of others machines arp table
